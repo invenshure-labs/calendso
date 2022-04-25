@@ -15,7 +15,7 @@
     "test-codegen": "yarn playwright codegen http://localhost:3000",
     "type-check": "tsc --pretty --noEmit",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 8080",
     "lint": "next lint",
     "lint:report": "eslint . --format json --output-file ../../lint-results/web.json",
     "lint:fix": "next lint . --ext .ts,.js,.tsx,.jsx --fix",
